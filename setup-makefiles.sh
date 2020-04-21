@@ -8,7 +8,7 @@
 set -e
 
 # Required!
-export DEVICE=apollo
+export DEVICE=akari
 export DEVICE_COMMON=tama-common
 export VENDOR=sony
 

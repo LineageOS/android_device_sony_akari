@@ -38,4 +38,4 @@ touch.size.scale = 1
 touch.size.bias = 0
 touch.size.isSummed = 0
 
-touch.pressure.scale = 0.008
+touch.pressure.scale = 0.007

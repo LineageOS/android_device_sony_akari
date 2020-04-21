@@ -1,26 +1,36 @@
-Copyright (C) 2019 The LineageOS Project
+# Device Tree for Xperia XZ2 (akari)
+ By Sjll
+The Xperia (codenamed _"akari"_) is a smartphone from Sony Mobile.
+It was released in 2018.
 
-Device configuration for Sony Xperia XZ2 Compact
-=========================================
+| Basic                   | Spec Sheet                                                                                                                     |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
+| CPU                     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)                                                                |
+| Chipset                 | Qualcomm SDM845 Snapdragon 845                                                                                                 |
+| GPU                     | Adreno 630                                                                                                                     |
+| Memory                  | 4/6 GB RAM                                                                                                                     |
+| Shipped Android Version | 8.1                                                                                                                            |
+| Storage                 | 64 GB                                                                                                                  |
+| Battery                 | Non-removable Li-Po 3180 mAh battery                                                                                           |
+| Display                 | Toppest LCD, 1080 x 2160 pixels, 18:9 ratio (~424 ppi density)                                                                |
+| Camera (Back)           | 19 MP (f/2.0, 25mm, 1/2.3", 1.22 µm), gyro EIS, predictive phase detection and laser AF, LED flash, 4K at 30fps, 1080p at 30, 60fps or 960fps |
+| Camera (Front)          | 5 MP (f/2.2, 1/5"), gyro EIS, 1080p                                                                    |
 
-The Sony Xperia XZ2 Compact (codenamed _"apollo"_) is a high-end smartphone from Sony.
+Copyright 2018 - The LineageOS Project.
 
-It was announced in July 2019. Release date was August 2019.
+![Xperia XZ2](https://images-na.ssl-images-amazon.com/images/I/71nC8hZVTIL._SL1500_.jpg "Xperia XZ2")
 
-## Device specifications
 
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Qualcomm SDM845 Snapdragon 845
-CPU     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)
-GPU     | Adreno 630
-Memory  | 4 GB RAM
-Shipped Android Version | 8.0
-Storage | 64 GB
-Battery | Non-removable Li-Ion 3400 mAh battery
-Display | 1080 x 2160 pixels, 18:9 ratio, 5.99 inches, IPS LCD (~403 ppi density)
-Camera  | Dual 12 MP, 4-axis OIS, 2x optical zoom, dual PDAF, dual-LED (dual tone) flash
+## Temporary build instructions
 
-## Device picture
+```
+# Compiling
+$ m[ake|ka] bootimage systemimage
 
-![Sony Xperia XZ2 Compact](https://www.cellphoneage.com/pub/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/x/p/xperia_xz2_compact_dual_1600x1600.jpg "Sony Xperia XZ2 Compact")
+# Installing
+$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
+$ fastboot flash boot boot.img
+$ fastboot flash system system.img
+$ fastboot -w reboot
+```
+
