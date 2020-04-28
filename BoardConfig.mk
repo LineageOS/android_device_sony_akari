@@ -10,7 +10,7 @@
 DEVICE_PATH := device/sony/akari
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := akari
+TARGET_OTA_ASSERT_DEVICE := H8266,H8296,H8216,akari,akari_dual
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
