@@ -543,8 +543,8 @@ vendor/lib/libscvePanorama.so
 vendor/lib/libscveScan3D.so
 
 # Display calibration
-vendor/etc/qdcm_calib_data_3.xml
-vendor/etc/qdcm_calib_data_7.xml
+vendor/etc/qdcm_calib_data_3.xml|e06e8995991a6a78269ce5e00a4ed1a4fd8463a7
+vendor/etc/qdcm_calib_data_7.xml|ef9599d3bd3559ce1694b0d69e6b23e90d6cf640
 vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml
 vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml
 vendor/etc/qdcm_calib_data_Dual_nt36850_cmd_mode_dsi_truly_panel_without_DSC.xml
