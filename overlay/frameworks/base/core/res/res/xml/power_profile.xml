@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="ambient.on">44.37</item>
-    <item name="screen.on">44.37</item>
-    <item name="screen.full">281.40</item>
+    <item name="ambient.on">56.39</item>
+    <item name="screen.on">56.39</item>
+    <item name="screen.full">407.15</item>
     <item name="bluetooth.active">0</item>
     <item name="bluetooth.on">0</item>
     <item name="wifi.on">1.46</item>
     <item name="wifi.active">92.06</item>
     <item name="wifi.scan">256.24</item>
     <item name="audio">38.56</item>
-    <item name="video">140.89</item>
+    <item name="video">141.96</item>
     <item name="camera.flashlight">47.75</item>
     <item name="camera.avg">579.00</item>
     <item name="radio.active">97.37</item>
@@ -132,7 +132,7 @@
         <value>128.0</value>
         <value>143.9</value>
     </array>
-    <item name="battery.capacity">2760</item>
+    <item name="battery.capacity">3060</item>
     <item name="wifi.controller.idle">0.00</item>
     <item name="wifi.controller.rx">5.55</item>
     <item name="wifi.controller.tx">6.70</item>
