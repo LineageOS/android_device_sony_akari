@@ -32,8 +32,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 44712755200
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Treble
-BOARD_VNDK_RUNTIME_DISABLE := true
-
 # Inherit from the proprietary version
 -include vendor/sony/akari/BoardConfigVendor.mk
