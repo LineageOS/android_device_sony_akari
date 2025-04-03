@@ -382,9 +382,7 @@ vendor/lib/libslimclient.so
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterutils.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterutils.so
 
 # Secd
 vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
